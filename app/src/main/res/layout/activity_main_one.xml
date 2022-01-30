@@ -40,22 +40,25 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter your password:"/>
+        android:minHeight="48dp"
+        android:text="Enter your password:" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:text="password"
+        android:ems="15"
         android:gravity="center"
-        android:ems="15"/>
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:text="password" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter your E-mail:"
+        android:ems="20"
         android:inputType="textEmailAddress"
-        android:ems="20"/>
+        android:minHeight="48dp"
+        android:text="Enter your E-mail:" />
 
     <CalendarView
         android:layout_width="wrap_content"
