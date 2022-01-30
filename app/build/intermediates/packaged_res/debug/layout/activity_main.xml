@@ -49,9 +49,6 @@
         android:fontFamily="monospace"
         android:textColor="@android:color/holo_red_dark"
         />
-
-
-
 </LinearLayout>
 
 
